@@ -1,0 +1,172 @@
+/* ReadMe Hero
+   BEM-inspired component naming:
+   block
+   block__element
+   block--modifier
+*/
+
+* {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+QMainWindow,
+QWidget#app {
+    background: #0d1016;
+    color: #e8edf5;
+}
+
+QFrame#app-header {
+    background: #131821;
+    border-bottom: 1px solid #252c38;
+}
+
+QLabel#app-header__brand {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+QLabel#app-header__version {
+    color: #68758a;
+    font-size: 11px;
+    padding: 4px 7px;
+    background: #1c222d;
+    border-radius: 5px;
+}
+
+QLabel#app-header__spacer {
+    background: transparent;
+}
+
+QPushButton {
+    border: none;
+    border-radius: 7px;
+    padding: 8px 14px;
+    font-weight: 600;
+}
+
+QPushButton#button--primary {
+    background: #6d8cff;
+    color: #ffffff;
+}
+
+QPushButton#button--primary:hover {
+    background: #7e9aff;
+}
+
+QPushButton#button--secondary {
+    background: #202632;
+    color: #dce3ef;
+}
+
+QPushButton#button--secondary:hover {
+    background: #2a3240;
+}
+
+QPushButton#button--ghost {
+    background: transparent;
+    color: #7f8a9d;
+    padding: 5px 8px;
+}
+
+QPushButton#button--ghost:hover {
+    color: #ff8b8b;
+    background: #281c20;
+}
+
+QFrame#toolbar {
+    background: #10141c;
+    border-bottom: 1px solid #252c38;
+}
+
+QPushButton#toolbar__button {
+    background: #1a202a;
+    color: #aeb8c8;
+    padding: 7px 11px;
+}
+
+QPushButton#toolbar__button:hover {
+    background: #242c39;
+    color: #ffffff;
+}
+
+QFrame#editor,
+QFrame#preview {
+    background: #131821;
+    border: 1px solid #252c38;
+    border-radius: 10px;
+}
+
+QLabel#section-title {
+    color: #69758a;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    padding-left: 2px;
+}
+
+QFrame#editor__block {
+    background: #181e27;
+    border: 1px solid #2a3240;
+    border-radius: 9px;
+}
+
+QLabel#editor__block-label {
+    color: #9ca8bb;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+QLabel#editor__image-path {
+    color: #7e8b9e;
+    background: #11151c;
+    border: 1px solid #292f3a;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+QLabel#editor__drop-zone {
+    color: #667388;
+    background: #10151c;
+    border: 1px dashed #354052;
+    border-radius: 9px;
+    padding: 18px;
+    qproperty-alignment: AlignCenter;
+}
+
+QLabel#editor__drop-zone:hover {
+    color: #8c9bb1;
+    border-color: #596a84;
+}
+
+QLineEdit,
+QTextEdit {
+    background: #10151c;
+    color: #e5eaf2;
+    border: 1px solid #29313e;
+    border-radius: 7px;
+    padding: 8px;
+    selection-background-color: #536ec5;
+}
+
+QLineEdit:focus,
+QTextEdit:focus {
+    border: 1px solid #536ec5;
+}
+
+QTextBrowser#preview__content {
+    background: #10151c;
+    border: none;
+    border-radius: 7px;
+    padding: 4px;
+}
+
+QFrame#status-bar {
+    background: #10141c;
+    border-top: 1px solid #252c38;
+}
+
+QFrame#status-bar QLabel {
+    color: #69758a;
+    font-size: 11px;
+}
